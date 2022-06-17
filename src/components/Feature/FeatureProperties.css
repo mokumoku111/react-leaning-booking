@@ -1,0 +1,86 @@
+.featureProperties {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featurePropertiesItem {
+    flex: 1;
+    gap: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featurePropertiesImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.featurePropertiesName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Namerating>button {
+    background-color: #003580;
+    color: white;
+    border: 1px solid;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 6px;
+    gap: 3px;
+    font-weight: bold;
+}
+
+.featurePropertiesCity {
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.featurePropertiesPrice {
+    font-weight: 500;
+}
+
+.featurePropertiesRating>button {
+    font-weight: bold;
+    background-color: #003580;
+    color: white;
+    border: 1px solid;
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 5px;
+    gap: 3px;
+}
+
+.faRating {
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.featurePropertiesRating>span {
+    font-size: 14px;
+}
+
+.ftest {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.ratingOnImg>button {
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    background-color: #003580;
+    color: white;
+    border: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+}
